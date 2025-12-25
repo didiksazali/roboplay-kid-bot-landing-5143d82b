@@ -109,13 +109,13 @@ const HeroSection = () => {
         >
           <Button
             variant="whatsapp"
-            size="xl"
+            size="lg"
             asChild
-            className="group"
+            className="group w-full max-w-xs sm:max-w-none sm:w-auto"
           >
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-              <MessageCircle className="w-6 h-6 group-hover:animate-bounce" />
-              Daftar Sekarang via WhatsApp
+              <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6 group-hover:animate-bounce flex-shrink-0" />
+              <span className="text-sm sm:text-base">Daftar Sekarang via WhatsApp</span>
             </a>
           </Button>
         </motion.div>
