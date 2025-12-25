@@ -111,7 +111,7 @@ const HeroSection = () => {
             variant="whatsapp"
             size="lg"
             asChild
-            className="group w-full max-w-xs sm:max-w-none sm:w-auto"
+            className="group w-full max-w-xs sm:max-w-none sm:w-auto whitespace-normal"
           >
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
               <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6 group-hover:animate-bounce flex-shrink-0" />
