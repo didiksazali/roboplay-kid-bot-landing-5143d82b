@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import roboplayLogo from "@/assets/roboplay-logo.jpg";
 
 const HeroSection = () => {
   const whatsappLink = "https://wa.me/6281234567890?text=Halo%20Roboplay!%20Saya%20ingin%20mendaftar%20kursus%20robotik%20untuk%20anak.";
@@ -64,18 +65,18 @@ const HeroSection = () => {
       </div>
 
       <div className="container relative z-10 flex flex-col items-center justify-center min-h-screen py-20 text-center">
-        {/* Logo placeholder */}
+        {/* Logo */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6 }}
           className="mb-8"
         >
-          <div className="w-32 h-32 md:w-40 md:h-40 bg-card rounded-3xl shadow-card flex items-center justify-center border-4 border-primary/20">
-            <span className="text-4xl md:text-5xl font-extrabold text-gradient-primary">
-              R🤖
-            </span>
-          </div>
+          <img 
+            src={roboplayLogo} 
+            alt="RoboPlay - Coding & Robotic" 
+            className="w-32 h-32 md:w-40 md:h-40 object-contain"
+          />
         </motion.div>
 
         {/* Main headline */}
