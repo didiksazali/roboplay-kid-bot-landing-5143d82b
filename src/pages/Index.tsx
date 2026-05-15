@@ -41,6 +41,9 @@ const Index = () => {
         <section id="keuntungan">
           <BenefitsSection />
         </section>
+        <section id="murid">
+          <StudentsCarouselSection />
+        </section>
         <CTASection />
         <section id="kontak">
           <Footer />
