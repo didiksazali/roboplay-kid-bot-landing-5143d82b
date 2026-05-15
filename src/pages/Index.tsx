@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import CategoriesSection from "@/components/CategoriesSection";
 import BenefitsSection from "@/components/BenefitsSection";
+import StudentsCarouselSection from "@/components/StudentsCarouselSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
