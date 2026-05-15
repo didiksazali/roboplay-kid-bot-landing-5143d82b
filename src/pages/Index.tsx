@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import CategoriesSection from "@/components/CategoriesSection";
 import BenefitsSection from "@/components/BenefitsSection";
+import StudentsCarouselSection from "@/components/StudentsCarouselSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
@@ -39,6 +40,9 @@ const Index = () => {
         </section>
         <section id="keuntungan">
           <BenefitsSection />
+        </section>
+        <section id="murid">
+          <StudentsCarouselSection />
         </section>
         <CTASection />
         <section id="kontak">
